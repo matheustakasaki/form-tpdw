@@ -1,0 +1,72 @@
+{
+  "_chunk-AYJ5UCUI-BgvtsLLI.js": {
+    "file": "assets/chunk-AYJ5UCUI-BgvtsLLI.js",
+    "name": "chunk-AYJ5UCUI"
+  },
+  "_firebase-BdIF5aun.js": {
+    "file": "assets/firebase-BdIF5aun.js",
+    "name": "firebase"
+  },
+  "_with-props-BxKglfyu.js": {
+    "file": "assets/with-props-BxKglfyu.js",
+    "name": "with-props",
+    "imports": [
+      "_chunk-AYJ5UCUI-BgvtsLLI.js"
+    ]
+  },
+  "app/pages/Cadastro.jsx?__react-router-build-client-route": {
+    "file": "assets/Cadastro-DWdWoxGf.js",
+    "name": "Cadastro",
+    "src": "app/pages/Cadastro.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_with-props-BxKglfyu.js",
+      "_chunk-AYJ5UCUI-BgvtsLLI.js",
+      "_firebase-BdIF5aun.js"
+    ]
+  },
+  "app/pages/Login.jsx?__react-router-build-client-route": {
+    "file": "assets/Login-LgmNFF2m.js",
+    "name": "Login",
+    "src": "app/pages/Login.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_with-props-BxKglfyu.js",
+      "_chunk-AYJ5UCUI-BgvtsLLI.js",
+      "_firebase-BdIF5aun.js"
+    ]
+  },
+  "app/pages/Principal.jsx?__react-router-build-client-route": {
+    "file": "assets/Principal-Bhx68MJa.js",
+    "name": "Principal",
+    "src": "app/pages/Principal.jsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_with-props-BxKglfyu.js",
+      "_chunk-AYJ5UCUI-BgvtsLLI.js",
+      "_firebase-BdIF5aun.js"
+    ]
+  },
+  "app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-BLCRgssw.js",
+    "name": "root",
+    "src": "app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_with-props-BxKglfyu.js",
+      "_chunk-AYJ5UCUI-BgvtsLLI.js"
+    ],
+    "css": [
+      "assets/root-yu8hssDF.css"
+    ]
+  },
+  "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
+    "file": "assets/entry.client-DE25ldCZ.js",
+    "name": "entry.client",
+    "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-AYJ5UCUI-BgvtsLLI.js"
+    ]
+  }
+}

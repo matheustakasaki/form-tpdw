@@ -41,22 +41,22 @@ export default function Login() {
         )}
 
         <div className="flex flex-col">
-        <input
-          name="email"
-          type="email"
-          placeholder="Email"
-          onChange={handleChange}
-          required
-          className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"
-        />
-        <input
-          name="senha"
-          type="password"
-          placeholder="Senha"
-          onChange={handleChange}
-          required
-          className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"
-        />
+          <input
+            name="email"
+            type="email"
+            placeholder="Email"
+            onChange={handleChange}
+            required
+            className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"
+          />
+          <input
+            name="senha"
+            type="password"
+            placeholder="Senha"
+            onChange={handleChange}
+            required
+            className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"
+          />
         </div>
 
         <button

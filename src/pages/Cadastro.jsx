@@ -68,32 +68,32 @@ export default function Cadastro() {
                     placeholder="Email"
                     onChange={handleChange}
                     required
-                    className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"                />
+                    className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"                />
                 <input
                     name="senha"
                     type="password"
                     placeholder="Senha"
                     onChange={handleChange}
                     required
-                    className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"                />
+                    className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"                />
                 <input
                     name="nome"
                     placeholder="Nome"
                     onChange={handleChange}
                     required
-                    className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"                />
+                    className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"                />
                 <input
                     name="sobrenome"
                     placeholder="Sobrenome"
                     onChange={handleChange}
                     required
-                    className="input-field text-black p-3 border-1 border-gray-200 my-2 rounded-sm"                />
+                    className="input-field text-black p-3 border border-gray-200 my-2 rounded-md"                />
                 <input
                     name="nascimento"
                     type="date"
                     onChange={handleChange}
                     required
-                    className="input-field text-black p-3 border-1 border-gray-200 m rounded-sm"
+                    className="input-field text-black p-3 border border-gray-200 m rounded-md"
                 />
 
                 </div>
