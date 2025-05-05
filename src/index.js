@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import AppRoutes from './routes/AppRoutes'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('app')).render(
   <React.StrictMode>
     <AppRoutes />
   </React.StrictMode>,
