@@ -1,2 +1,2 @@
-O build gerado está na pasta /build e o deploy do projeto foi realizado neste link 
+O build gerado está na pasta /dist e o deploy do projeto foi realizado neste link 
 https://sage-capybara-757736.netlify.app/
