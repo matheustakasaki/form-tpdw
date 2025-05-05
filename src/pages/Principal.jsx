@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { auth, db } from "../services/firebase";
 import { doc, getDoc } from "firebase/firestore";
 
@@ -19,12 +19,21 @@ export default function Principal() {
     carregarDados();
   }, []);
 
-  return dados ? (
-    <div>
-      <h2>Bem-vindo, {dados.nome} {dados.sobrenome}</h2>
-      <p>Data de nascimento: {dados.nascimento}</p>
+  return (
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
+      {dados ? (
+        <div className="bg-white shadow-xl rounded-2xl p-8 max-w-md w-full text-center animate-fade-in">
+          <h1 className="text-2xl font-bold text-gray-800 mb-2">
+            Bem-vindo, {dados.nome} {dados.sobrenome}!
+          </h1>
+          <p className="text-gray-600">
+            Sua data de nascimento é:{" "}
+            <span className="font-medium text-blue-600">{dados.nascimento}</span>
+          </p>
+        </div>
+      ) : (
+        <p className="text-gray-500">Carregando...</p>
+      )}
     </div>
-  ) : (
-    <p>Carregando...</p>
   );
 }
